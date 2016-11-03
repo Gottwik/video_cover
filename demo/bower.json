@@ -1,0 +1,23 @@
+{
+  "name": "enduro_scaffolding",
+  "description": "",
+  "main": "assets/vendor/enduro/index.js",
+  "authors": [
+    "author goes here"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4",
+    "requirejs": "^2.3.2",
+    "video_cover": "*"
+  }
+}
