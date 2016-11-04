@@ -1,7 +1,13 @@
-# video_cover
-Stretches video element to cover it's parent, essentially emulating `background-size: cover;` for `video` elements.
+<p align="center">
+Check out the <a href="https://gottwik.github.io/video_cover/" target="_blank">DEMO HERE</a>
+</p>
 
-![Imgur](http://i.imgur.com/QAwiBJk.png)
+<p align="center">
+	<img src="http://i.imgur.com/QAwiBJk.png">
+</p>
+
+## Why video_cover
+Stretches video element to cover it's parent, essentially emulating `background-size: cover;` for `video` elements.
 
 ## Bower
 
