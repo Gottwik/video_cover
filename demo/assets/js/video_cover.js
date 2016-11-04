@@ -40,6 +40,9 @@ function cover (video_element) {
 				.css('height', container.width() / video_ratio)
 				.css('left', 0)
 		}
+
+		// show the video element
+		video_element.show()
 	}
 
 	// resizes the video on window resize event

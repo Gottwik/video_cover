@@ -1,0 +1,38 @@
+{
+  "name": "video_cover",
+  "main": "video_cover.js",
+  "homepage": "https://github.com/Gottwik/video_cover",
+  "description": "Stretches <video> elements to fully cover it's parent",
+  "keywords": [
+    "video",
+    "jquery",
+    "cover",
+    "background-size"
+  ],
+  "authors": [
+    "Martin Gottweis"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.2",
+    "jquery": "^3.1.1",
+    "video_cover": "*"
+  },
+  "_release": "f0456008ef",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f0456008efd42126e4e73ecd1cc58c2233cf0c27"
+  },
+  "_source": "https://github.com/Gottwik/video_cover.git",
+  "_target": "*",
+  "_originalSource": "video_cover",
+  "_direct": true
+}
