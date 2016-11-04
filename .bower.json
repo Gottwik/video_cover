@@ -3,6 +3,7 @@
   "main": "video_cover.js",
   "homepage": "https://github.com/Gottwik/video_cover",
   "description": "Stretches <video> elements to fully cover it's parent",
+  "version": "1.0.0",
   "keywords": [
     "video",
     "jquery",
