@@ -66,16 +66,18 @@ if (typeof $ !== 'undefined') {
 }
 
 // commonJs module
-define(['jquery'],
-	function ($) {
-		var video_cover = function () {}
+if (define) {
+	define(['jquery'],
+		function ($) {
+			var video_cover = function () {}
 
-		video_cover.cover = function (elements) {
-			elements.each(function (index, element) {
-				cover($(element))
-			})
+			video_cover.cover = function (elements) {
+				elements.each(function (index, element) {
+					cover($(element))
+				})
+			}
+
+			return video_cover
 		}
-
-		return video_cover
-	}
-)
+	)
+}
