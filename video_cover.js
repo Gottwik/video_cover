@@ -66,7 +66,7 @@ if (typeof $ !== 'undefined') {
 }
 
 // commonJs module
-if (define) {
+if (typeof define !== 'undefined') {
 	define(['jquery'],
 		function ($) {
 			var video_cover = function () {}
